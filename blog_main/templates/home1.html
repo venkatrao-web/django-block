@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Django Blogs</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body{
+            background-color: #ffffff;
+        }
+
+        .hero-section{
+            background-color: #343a40;
+            color: white;
+            border-radius: 5px;
+            padding: 60px 50px;
+        }
+
+        .hero-title{
+            font-size: 70px;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .hero-text{
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .continue-link{
+            font-size: 28px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+
+        .post-title{
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .post-meta{
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .category-menu a{
+            text-decoration: none;
+            color: #4d4d4d;
+            font-size: 22px;
+        }
+
+        .blog-logo{
+            font-size: 28px;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container mt-4">
+
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-5">
+
+            <div class="blog-logo">
+                Django Blog
+            </div>
+
+            <div>
+                <button class="btn btn-warning me-2">Login</button>
+                <button class="btn btn-outline-secondary">Register</button>
+            </div>
+
+        </div>
+
+        <!-- Categories -->
+        <div class="d-flex justify-content-between category-menu mb-5 flex-wrap">
+
+            <a href="#">World</a>
+            <a href="#">U.S.</a>
+            <a href="#">Technology</a>
+            <a href="#">Design</a>
+            <a href="#">Culture</a>
+            <a href="#">Business</a>
+            <a href="#">Politics</a>
+            <a href="#">Opinion</a>
+            <a href="#">Science</a>
+            <a href="#">Health</a>
+            <a href="#">Style</a>
+            <a href="#">Travel</a>
+
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section mb-5">
+
+            <div class="col-md-8">
+
+                <h1 class="hero-title">
+                    Title of a longer featured blog post
+                </h1>
+
+                <p class="hero-text">
+                    Multiple lines of text that form the lede,
+                    informing new readers quickly and efficiently
+                    about what's most interesting in this post's contents.
+                </p>
+
+                <a href="#" class="continue-link">
+                    Continue reading...
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Blog Posts -->
+        <div class="row">
+
+            <!-- Post 1 -->
+            <div class="col-md-6 mb-5">
+
+                <h2 class="post-title">Post Title</h2>
+
+                <div class="post-meta">
+                    Nov 11 | Author
+                </div>
+
+                <p>
+                    Some quick example text to build on the card
+                    title and make up the bulk of the card's content.
+                </p>
+
+            </div>
+
+            <!-- Post 2 -->
+            <div class="col-md-6 mb-5">
+
+                <h2 class="post-title">Post Title</h2>
+
+                <div class="post-meta">
+                    Nov 11 | Author
+                </div>
+
+                <p>
+                    Some quick example text to build on the card
+                    title and make up the bulk of the card's content.
+                </p>
+
+            </div>
+
+            <!-- Post 3 -->
+            <div class="col-md-6 mb-5">
+
+                <h2 class="post-title">Post Title</h2>
+
+                <div class="post-meta">
+                    Nov 11 | Author
+                </div>
+
+                <p>
+                    Some quick example text to build on the card
+                    title and make up the bulk of the card's content.
+                </p>
+
+            </div>
+
+            <!-- Post 4 -->
+            <div class="col-md-6 mb-5">
+
+                <h2 class="post-title">Post Title</h2>
+
+                <div class="post-meta">
+                    Nov 11 | Author
+                </div>
+
+                <p>
+                    Some quick example text to build on the card
+                    title and make up the bulk of the card's content.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
